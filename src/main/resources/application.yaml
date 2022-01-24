@@ -1,1 +1,16 @@
-
+fint:
+  org-id: fintlabs.no
+  application-id: fint-skjema-logging-service
+  kafka:
+    logging:
+      logToKafka: false
+    cache:
+      defaultCacheEntryTimeToLiveMillis: 518400000
+      defaultCacheHeapSize: 1000000
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+    consumer:
+      group-id: fint-skjema-logging-service
+server:
+  port: 8095
