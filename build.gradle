@@ -38,7 +38,7 @@ dependencies {
     //implementation 'org.springframework.boot:spring-boot-starter-security'
     //implementation 'org.apache.kafka:kafka-streams'
     implementation 'org.springframework.kafka:spring-kafka'
-    implementation 'no.fintlabs:fint-kafka:0.0.2-rc-51'
+    implementation 'no.fintlabs:fint-kafka:0.0.2-rc-52'
 
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
